@@ -1,0 +1,131 @@
+
+.dialog .modal {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    opacity: .5;
+}
+
+.dialog .dialog-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 800px;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+
+.dialog-header {
+    margin-left: 24px;
+    height: 50px;
+}
+
+.img-add {
+    width: 300px;
+    height: 300px;
+    top: 67px;
+    margin-left: 24px;
+    /*background-color: #ff0000;*/
+}
+
+    .img-add .img-cus {
+        margin-left: 24px;
+        border-radius: 50%;
+        border: 1px solid #bbbbbb;
+        width: 250px;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        flex-shrink: 0;
+        background-image: url('../../content/img/default-avatar.jpg');
+    }
+
+    .img-add .text-dia{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .shadow{
+        text-shadow: 0 0 black;
+    }
+
+.info-cus {
+    left: 324px;
+    position: absolute;
+    top: 90px;
+    width: calc(100% - 324px);
+    height: 300px;
+    /*background-color: #ffd800;*/
+}
+
+/*.code{
+    position: absolute;
+    margin-bottom: 24px;
+}*/
+
+.name-cus{
+    position: absolute;
+    right: 161px;
+}
+
+.name-input{
+    position: absolute;
+    right: 24px;
+}
+
+.group-cus{
+    position: absolute;
+    right: 118px;
+    /*margin-top: 24px;*/
+}
+
+.sex {
+    position: absolute;
+    right: 184px;
+}
+
+.sex-check {
+    position: inherit;
+    right: 86px;
+    margin-left: 8px;
+}
+
+.select {
+    width: 219px;
+    height: 49px;
+    right: 24px;
+    position: absolute;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+.bday{
+    height: 44px;
+    /* width: 185px; */
+}
+
+.a{
+    /* position: inherit; */
+    /* width:12px; */
+}
+/*.info-cus .container {
+        width: 400px;*/
+/*clear: both;*/
+/*}*/
+
+        .info-cus .container input {
+            width: 186px;
+            /*clear: both;*/
+}
+.contact {
+    position: absolute;
+    top: 367px;
+    left: 24px;
+    width: 776px;
+    height: 433px;
+    background-color: #00ffff;
+}

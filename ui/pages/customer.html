@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../css/layout/header.css" rel="stylesheet" />
+    <link href="../css/layout/content.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+    <link href="../css/layout/navbar.css" rel="stylesheet" />
+    <link href="../css/page/customer.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-box">
+            <div class="toggle"></div>
+            <div class="logo-page"></div>
+        </div>
+        <div class="navbar-content">
+            <a class="navbar-item" href="#">
+                <div class="navbar-item-icon icon-dashboad"></div>
+                <div class="navbar-item-text">Tổng quan</div>
+            </a>
+            <a class="navbar-item" href="#">
+                <div class="navbar-item">
+                    <div class="navbar-item-icon icon-report"></div>
+                    <div class="navbar-item-text">Báo cáo</div>
+                </div>
+            </a>
+            <a class="navbar-item" href="#">
+                <div class="navbar-item-icon icon-dashboad"></div>
+                <div class="navbar-item-text">Mua hàng</div>
+            </a>
+            <a class="navbar-item" href="#">
+                <div class="navbar-item-icon icon-dictionary-customer"></div>
+                <div class="navbar-item-text">Danh mục khách hàng</div>
+            </a>
+            <a class="navbar-item" href="#">
+                <div class="navbar-item-icon icon-setting"></div>
+                <div class="navbar-item-text">Thiết lập hệ thống</div>
+            </a>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-content">
+            <div class="header-content-text">Nhà hàng Biển Đông</div>
+            <div class="header-content-icon"></div>
+        </div>
+        <div class="header-user">
+            <div class="header-user-avatar"></div>
+            <div class="header-username">Nguyễn Đăng Khoa</div>
+            <div class="header-user-option"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">Danh sách khách hàng</div>
+            <button class="btnAddCustomer btn " >Thêm khách hàng</button>
+        </div>
+        <div class="page-toolbar">
+            <!--<input class="txtSearch" type="text" placeholder="Tìm kiếm theo Mã khách hàng hoặc họ và tên" />
+            <button class="btnRefresh"></button>-->
+
+            <form>
+                <input type="text" class="toolbar-input" id="content-search-icon" placeholder="Tìm kiếm theo Mã, Tên khác">
+                <input type="submit"  id="content-submit-icon" value="" />
+            </form>
+        </div>
+        <div class="grid">
+            <table width="100%" border="0">
+                <thead>
+                    <tr>
+                        <th>Mã Khách Hàng</th>
+                        <th>Họ và tên</th>
+                        <th>Giới tính</th>
+                        <th>Ngày sinh</th>
+                        <th>Nhóm khách hàng</th>
+                        <th>Điện thoại</th>
+                        <th>Email</th>
+                        <th>Địa chỉ</th>
+                        <th>Số tiền nợ</th>
+                        <th>Mã thẻ thành viên</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>M00001</td>
+                        <td>Nguyễn Đăng Khoa</td>
+                        <td>Nam</td>
+                        <td>26/07/99</td>
+                        <td>Khách VIP</td>
+                        <td>0123456789</td>
+                        <td>example@gmail.com</td>
+                        <td>Số 1 Đại Cồ Việt</td>
+                        <td></td>
+                        <td>MSI123456</td>
+                    </tr>
+                    <tr>
+                        <td>M00001</td>
+                        <td>Nguyễn Đăng Khoa</td>
+                        <td>Nam</td>
+                        <td>26/07/99</td>
+                        <td>Khách VIP</td>
+                        <td>0123456789</td>
+                        <td>example@gmail.com</td>
+                        <td>Số 1 Đại Cồ Việt</td>
+                        <td></td>
+                        <td>MSI123456</td>
+                    </tr>
+                    <tr>
+                        <td>M00001</td>
+                        <td>Nguyễn Đăng Khoa</td>
+                        <td>Nam</td>
+                        <td>26/07/99</td>
+                        <td>Khách VIP</td>
+                        <td>0123456789</td>
+                        <td>example@gmail.com</td>
+                        <td>Số 1 Đại Cồ Việt</td>
+                        <td></td>
+                        <td>MSI123456</td>
+                    </tr>
+                    <tr>
+                        <td>M00001</td>
+                        <td>Nguyễn Đăng Khoa</td>
+                        <td>Nam</td>
+                        <td>26/07/99</td>
+                        <td>Khách VIP</td>
+                        <td>0123456789</td>
+                        <td>example@gmail.com</td>
+                        <td>Số 1 Đại Cồ Việt</td>
+                        <td></td>
+                        <td>MSI123456</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-paging">
+            <div class="paging-content">Hiển thị 1-10/1000 Khách hàng</div>
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">&lsaquo;</a>
+                <a href="#">1</a>
+                <a href="#" class="active">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&rsaquo;</a>
+                <a href="#">&raquo;</a>
+            </div>
+            <div class="number-one-page">10 Khách hàng/trang</div>
+        </div>
+    </div>
+    <div class="dialog" >
+        <div class="modal"></div>
+        <div class="dialog-box">
+            <header class="dialog-header">
+                <h1>THÔNG TIN KHÁCH HÀNG</h1>
+            </header>
+            <div class="img-add">
+                <div class="img-cus"></div>
+                <div class="text-dia">Vui lòng chọn ảnh có định dạnh</div>
+                <div class="text-dia shadow">.jpg, .jpeg, .png, .gif</div>
+            </div>
+            <div class="info-cus">
+                <div class="container" style="font-size: 15px">
+                    <form>
+                        <label>Mã Khách Hàng(*)</label>
+                        <label class="name-cus">Họ và tên(*)</label><br />
+                        <input type="text" name="code_cus"/>
+                        <input type="text" class="name-input" name="name"/><br /><br />
+
+                    </form>
+                    <form class="code">
+                        <label >Mã thẻ thành viên</label>
+                        <label class="group-cus">Nhóm khách hàng</label><br />
+                        <input type="text" name="code_mem" />
+                        <!--<input type="text" class="name-input" name="name" />-->
+                        <select class="select">
+                            <option></option>
+                            <option>Nhóm 1</option>
+                            <option>Nhóm 2</option>
+                            <option>Nhóm 3</option>
+                        </select><br /><br />
+                    </form>
+                    <form>
+                        <label>Ngày sinh</label>
+                        <label class="sex">Giới tính</label><br />
+                        <input class="bday" type="date" name="bday" />
+                        <label class="sex-check">
+                        <input class="a" type="radio" name="sex" value="male" > Nam
+                        <input class="a" type="radio" name="sex" value="female" >Nữ
+                        <input class="a" type="radio" name="sex" value="other" >Khác
+                        </label>
+                            </form>
+                </div>
+            </div>
+            <div class="contact">contact</div>
+        </div>
+    </div>
+</body>
+</html>
